@@ -1,29 +1,46 @@
 import { Link } from "react-router-dom";
 import {ReactComponent as HomeLogo} from '../icon/home.svg'
+import {ReactComponent as ZapOn} from '../icon/zap.svg'
+import {ReactComponent as ZapOff} from '../icon/zap-off.svg'
 
 function HeaderComponent() {
     return(
-        <header className="border-bottom border-5 mb-5 p-2">
-            <div className="container">
-                <div className="row">
-                    <nav className="navbar navbar-expand-lg">
-                        <Link className="nav-link" to="/">
-                            <h2 className="navbar-brand ms-2 fs-2">
-                                <HomeLogo/>
-                            </h2>
-                        </Link>
-                        <div className="colapse navbar-collapse">
-                            <ul className="navbar-nav">
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/projects">Projects</Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/about">About</Link>
-                                </li>
-                            </ul>
+        <header className="border-bottom border-2" style={{backgroundColor:"#191919"}}>
+            <div className="container" style={{maxWidth:"1000px"}} >
+                {/* <div className="" style={{width:"90vh"}}> */}
+                    <nav className="navbar"  >
+                        {/* <div className="colapse navbar-collapse"> */}
+                        <ul className="navbar-nav d-flex flex-row">
+                            <li className="nav-item ms-3">
+                                <Link className="nav-link"to="/">
+                                    <p style={{color:"white", margin:"0"}}>
+                                        <HomeLogo/>
+                                    </p>
+                                </Link>
+                            </li>
+                            <li className="nav-item ms-5">
+                                <Link className="nav-link" to="/projects">
+                                    <p style={{color:"white", margin:"0"}}>
+                                    Projects
+                                    </p>
+                                </Link>
+                            </li>
+                            <li className="nav-item ms-5">
+                                <Link className="nav-link" to="/about">
+                                    <p style={{color:"white", margin:"0"}}>
+                                    About
+                                    </p>
+                                </Link>
+                            </li>
+                        </ul>
+                        <div className="nav-item pe-3"to="/">
+                            <p style={{color:"#FFC000", margin:"0"}}>
+                                <ZapOff/>
+                            </p>
                         </div>
+                        {/* </div> */}
                     </nav>
-                </div>
+                {/* </div> */}
             </div>
         </header>
     )
