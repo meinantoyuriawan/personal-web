@@ -7,15 +7,17 @@ import ErrorComponent from "./ErrorComponent";
 
 function MainPage() {
     return (
-        <div className="App">
-            <BrowserRouter>
+        <div className="App row d-flex justify-content-center">
+            <BrowserRouter >
                 <HeaderComponent/>
-                <Routes>
-                    <Route path='/' element={<LandingPage />}/>
-                    <Route path='/projects' element={<ProjectsPage />}/>
-                    <Route path='/about' element={<AboutPage />}/>
-                    <Route path='*' element={<ErrorComponent />}/>
-                </Routes>
+                <div style={{maxWidth:"1000px"}} className="mainCon w-auto col">
+                    <Routes>
+                        <Route path='/' element={<LandingPage />}/>
+                        <Route path='/projects' element={<ProjectsPage />}/>
+                        <Route path='/about' element={<AboutPage />}/>
+                        <Route path='*' element={<ErrorComponent />}/>
+                    </Routes>
+                </div>
             </BrowserRouter>
             {/* <HeaderComponent/> */}
         </div>
