@@ -1,4 +1,5 @@
 import ProjectsContainer from "./ProjectsContainer"
+import ContactsComponent from "./ContactsComponent"
 
 export default function ProjectsPage() {
     return(
@@ -8,6 +9,7 @@ export default function ProjectsPage() {
                 <p style={{textAlign: "center"}} className="p-3">One or two documented works I do</p>
                 <ProjectsContainer/>
             </div>
+            <ContactsComponent/>
         </div>
     )
 }

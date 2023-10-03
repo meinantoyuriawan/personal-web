@@ -15,7 +15,9 @@ export default function ProjectBoxComponent() {
                         <img src={data.img} alt={data.img} style={{width:"120px"}}/>
                     </div>
                     <div className="ms-4 d-flex row align-items-start" style={{textAlign: "left"}}>
-                        <h5 className="m-0">{data.title}</h5>
+                        <a href={data.link} target="_blank" className="links mt-2">
+                            <h5 className="m-0">{data.title}</h5>
+                        </a>
                         <p style={{fontSize:"14px"}} className="m-0">{data.content}</p>
                     </div>
                 </div>
