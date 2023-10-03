@@ -1,0 +1,42 @@
+[
+    {
+        "img": "img/link-2.svg",
+        "title": "Go-url-shortener",
+        "content": "Developed a REST API for url-shortener using Go language and Redis as a short time storage."
+    },
+    {
+        "img": "img/dollar-sign.svg",
+        "title": "Gobank",
+        "content": "Developed an authorized banking system REST API using Go language and JWT. Stored the data on MySQL. The code mimics a transfer, get account balance and get recent activity that is stored in the database"
+    },
+    {
+        "img": "img/settings.svg",
+        "title": "Golang-pipeline",
+        "content": "CI-CD implementation using Go language, Github actions and deployed as Docker images."
+    },
+    {
+        "img": "img/cloud.svg",
+        "title": "Go-micro",
+        "content": "Microservices implementation using Go language, RabbitMQ and gRPC."
+    },
+    {
+        "img": "img/ta.png",
+        "title": "Thermal Infrared Tracking System with YOLOv4 Algorithm and Visual Servoing Method",
+        "content": "Low light person tracker using YOLOV4 tiny and Visual Servoing algorithm on a Single Board Computer (NVIDIA Jetson Nano). "
+    },
+    {
+        "img": "img/Crimeless_Logo.png",
+        "title": "CrimeLess",
+        "content": "House security application to detect strangers in the house. ML App using Computer Vision, the Service run on cloud and sends notifications into the android application."
+    },
+    {
+        "img": "img/robot.png",
+        "title": "Medical Delivery Robot",
+        "content": "Simulation of lane follower robot that can deliver medical needs using Webots software. Robot operated with the Python programming language."
+    },
+    {
+        "img": "img/frame_404.jpg",
+        "title": "Person Classification using CCTV Surveillance Video",
+        "content": "A step by step explanation of Machine Learning part in CrimeLess Apps, part of Bangkit Academy capstone project"
+    }
+]
