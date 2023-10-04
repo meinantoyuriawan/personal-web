@@ -2,25 +2,25 @@
     {
         "img": "img/link-2.svg",
         "title": "Go-url-shortener",
-        "content": "Developed a REST API for url-shortener using Go language and Redis as a short time storage.",
+        "content": "Developed a REST API for url-shortener using Go and Redis as a short time storage.",
         "link": "https://github.com/meinantoyuriawan"
     },
     {
         "img": "img/dollar-sign.svg",
         "title": "Gobank",
-        "content": "Developed an authorized banking system REST API using Go language and JWT. Stored the data on MySQL. The code mimics a transfer, get account balance and get recent activity that is stored in the database",
+        "content": "Developed an authorized banking system REST API using Go and JWT, Stored on MySQL. The project mimics a transfer, get balance and get recent activity",
         "link": "https://github.com/meinantoyuriawan"
     },
     {
         "img": "img/settings.svg",
         "title": "Golang-pipeline",
-        "content": "CI-CD implementation using Go language, Github actions and deployed as Docker images.",
+        "content": "CI-CD implementation using Go, Github actions and deployed as Docker images.",
         "link": "https://github.com/meinantoyuriawan"
     },
     {
         "img": "img/cloud.svg",
         "title": "Go-micro",
-        "content": "Microservices implementation using Go language, RabbitMQ and gRPC.",
+        "content": "Microservices implementation using Go, RabbitMQ and gRPC.",
         "link": "https://github.com/meinantoyuriawan"
     },
     {

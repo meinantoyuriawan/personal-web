@@ -11,33 +11,40 @@ function HeaderComponent() {
                     <nav className="navbar"  >
                         {/* <div className="colapse navbar-collapse"> */}
                         <ul className="navbar-nav d-flex flex-row">
-                            <li className="nav-item ms-3">
+                            <li className="nav-item ms-2">
                                 <Link className="nav-link"to="/">
                                     <p style={{color:"white", margin:"0"}}>
                                         <HomeLogo/>
                                     </p>
                                 </Link>
                             </li>
-                            <li className="nav-item ms-5">
-                                <Link className="nav-link" to="/projects">
-                                    <p style={{color:"white", margin:"0"}}>
-                                    Projects
-                                    </p>
-                                </Link>
-                            </li>
-                            <li className="nav-item ms-5">
+                            <li className="nav-item ">
                                 <Link className="nav-link" to="/about">
                                     <p style={{color:"white", margin:"0"}}>
                                     About
                                     </p>
                                 </Link>
                             </li>
+                            <li className="nav-item ">
+                                <Link className="nav-link" to="/projects">
+                                    <p style={{color:"white", margin:"0"}}>
+                                    Projects
+                                    </p>
+                                </Link>
+                            </li>
+                            <li className="nav-item ">
+                                <a href="https://meinantoyuriawan.medium.com/" target="_blank" className="nav-link">
+                                    <p style={{color:"white", margin:"0"}}>
+                                        Blog
+                                    </p>
+                                </a>
+                            </li>
                         </ul>
-                        <div className="nav-item pe-3"to="/">
+                        {/* <div className="nav-item pe-3"to="/">
                             <p style={{color:"#FFC000", margin:"0"}}>
                                 <ZapOff/>
                             </p>
-                        </div>
+                        </div> */}
                         {/* </div> */}
                     </nav>
                 {/* </div> */}

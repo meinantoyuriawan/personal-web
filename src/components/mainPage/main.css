@@ -1,0 +1,13 @@
+li {
+    margin-left: 2.3rem;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .title {
+        font-size: 36px;
+    }
+    li {
+        margin-left: 1.1rem;
+    }
+}

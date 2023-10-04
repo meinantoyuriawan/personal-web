@@ -6,7 +6,7 @@ import {ReactComponent as MediumLogo} from '../icon/medium.svg'
 export default function ContactsComponent() {
     return(
         <div>
-            <div className='m-3'>
+            <div className='mt-4 m-3'>
                 <a href="https://github.com/meinantoyuriawan" target="_blank" style={{color:"#000"}}>
                     <GithubLogo className='m-3'/>
                 </a>
